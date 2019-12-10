@@ -1,0 +1,33 @@
+public class gajikaryawan {
+
+    /**j
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        int gaji = 7000000;
+        String  jabatan;
+        
+        if (gaji >= 20000000) {
+            System.out.println("Anda Direktur");
+            //jabatan = "Anda Direktur";
+        }
+        
+        else if (gaji >= 10000000){
+            System.out.println("Anda Manager");
+            //jabatan = "Anda Manager";
+        }
+        
+        else if (gaji >= 7000000){
+            System.out.println("Anda Supervisor");
+            //jabatan = "Anda Supervisor";
+        }
+        
+        else{
+            System.out.println("Anda Karyawan Produksi");
+            //jabatan = "Anda Karyawan Produksi";
+        }
+        
+    }
+    
+}
